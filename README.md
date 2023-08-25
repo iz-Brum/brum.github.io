@@ -1,2 +1,2 @@
-# iz-Brum.github.io
+# iz-brum.github.io
 Atividade da disciplina de Programação Web I.
