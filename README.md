@@ -1,34 +1,36 @@
 # iz-brum.github.io
-# Meu Portfólio de Projetos
+# Portfólio do Brum
 
-Bem-vindo ao meu portfólio de projetos! Este repositório serve como a página principal do meu portfólio, onde você pode visualizar uma coleção dos meus projetos hospedados no GitHub Pages.
+Seja bem-vindo ao meu portfólio de projetos! Aqui você encontrará uma seleção dos meus trabalhos mais relevantes, apresentados de forma interativa e organizada.
 
-## Sobre
+## 🌟 Visão Geral
 
-Este site foi criado para exibir meus projetos de forma organizada e acessível. Cada projeto é apresentado com uma pré-visualização interativa em tempo real usando `iframes`, permitindo que você explore rapidamente o conteúdo dos sites sem sair da página principal.
+Este portfólio foi desenvolvido com o objetivo de centralizar e apresentar meus projetos de forma clara e acessível. Cada projeto está disponível para visualização em tempo real através de pré-visualizações interativas.
 
-## Projetos
+## 🚀 Projetos em Destaque
 
-Atualmente, o portfólio inclui os seguintes projetos:
+Explore alguns dos principais projetos que desenvolvi:
 
-- **[Hydro Station Data](https://iz-brum.github.io/hydro-station-data)**: Um projeto que coleta e visualiza dados hidrológicos de estações de monitoramento.
+- **[Hydro Station Data](https://iz-brum.github.io/hydro-station-data)**: Uma aplicação robusta para coleta e visualização de dados hidrológicos de estações de monitoramento.
 
-- **[Projeto 2](link-para-o-segundo-projeto)**: Descrição breve do segundo projeto.
+- **[Visa Form DS-160](https://iz-brum.github.io/form-visa-ds-160/)**: Interface interativa simulando o preenchimento do formulário de solicitação de visto DS-160.
 
-(Adicione mais projetos conforme necessário)
+- **[Login Page](https://iz-brum.github.io/projeto-login/)**: Exemplo de uma página de login responsiva com validação de entrada de dados.
 
-## Como Funciona
+(Novos projetos serão adicionados periodicamente)
 
-Cada seção no portfólio exibe uma miniatura interativa do site correspondente. Você pode clicar no botão "Ver Projeto" para abrir o site completo em uma nova aba.
+## 💡 Como Navegar
 
-## Como Contribuir
+Cada projeto no portfólio é exibido como uma miniatura interativa. Clique em "Ver Projeto" para abrir o site completo em uma nova aba e explorar os detalhes.
 
-Se você tiver sugestões ou encontrar problemas com o site, fique à vontade para abrir uma [issue](https://github.com/iz-brum/iz-brum.github.io/issues) ou fazer um [fork](https://github.com/iz-brum/iz-brum.github.io/fork) deste repositório e enviar um pull request.
+## 🤝 Contribuições
 
-## Licença
+Sugestões e melhorias são sempre bem-vindas! Sinta-se à vontade para abrir uma [issue](https://github.com/iz-brum/iz-brum.github.io/issues) ou fazer um [fork](https://github.com/iz-brum/iz-brum.github.io/fork) deste repositório para enviar um pull request.
 
-Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para utilizá-lo como base para o seu próprio portfólio ou para outros projetos.
+## 📜 Licenciamento
+
+Este portfólio está licenciado sob a [MIT License](LICENSE). Fique à vontade para usá-lo como inspiração ou base para seus próprios projetos.
 
 ---
 
-Feito com ☕ por [Izann Brum](https://github.com/iz-brum).
+Feito com dedicação e ☕ por [Izann Brum](https://github.com/iz-brum).
