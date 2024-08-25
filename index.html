@@ -1,92 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IZ-BRUM's Projects</title>
-  <style>
-    body,
-    html {
-      height: 100%;
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-    }
-
-    .container {
-      text-align: center;
-      padding: 1rem 2rem;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin: 0;
-      background: linear-gradient(135deg, #0cddff, #f39c12);
-      background-clip: auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    p {
-      font-size: 1.2em;
-      margin: 20px 0;
-    }
-
-    a {
-      text-decoration: none;
-      color: #00c6ff;
-      font-size: 1.5em;
-      transition: color 0.3s ease;
-    }
-
-    a:hover {
-      color: #0072ff;
-    }
-
-    /* Responsividade */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2.5em;
-      }
-
-      p {
-        font-size: 1em;
-      }
-
-      a {
-        font-size: 1.2em;
-      }
-    }
-
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 2em;
-      }
-
-      p {
-        font-size: 0.9em;
-      }
-
-      a {
-        font-size: 1em;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-  <div class="container">
-    <h1>IZ-BRUM'S PROJECTS</h1>
-    <p>Explore os projetos inovadores hospedados aqui. Clique em qualquer link abaixo para visitar o respectivo projeto:
-    </p>
-    <!-- <a href="https://iz-brum.github.io/hydro-station-data/">Hydro Station Data</a> -->
-    <a href="/hydro-station-data/">Hydro Station Data</a>
-  </div>
-</body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Meu Portfólio</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card shadow-sm border-light">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://iz-brum.github.io/hydro-station-data" title="Hydro Station Data" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hydro Station Data</h5>
+                        <a href="https://iz-brum.github.io/hydro-station-data" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-sm border-light">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://iz-brum.github.io/form-visa-ds-160/" title="Visa Form DS-160" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Visa Form DS-160</h5>
+                        <a href="https://iz-brum.github.io/form-visa-ds-160/" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col">
+              <div class="card shadow-sm border-light">
+                  <div class="ratio ratio-16x9">
+                      <iframe src="https://iz-brum.github.io/projeto-login/" title="Login Page" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Login Page</h5>
+                      <a href="https://iz-brum.github.io/projeto-login/" class="btn btn-primary">Ver Projeto</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
 </html>

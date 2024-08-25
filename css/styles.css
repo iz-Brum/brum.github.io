@@ -1,0 +1,124 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8; /* Um tom suave de azul claro para o fundo */
+    color: #333; /* Cor de texto padrão */
+}
+
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50; /* Cor escura para o título */
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Espaçamento entre colunas */
+}
+
+.col {
+    flex: 1;
+    min-width: 300px; /* Largura mínima para colunas em telas pequenas */
+    max-width: 500px; /* Largura máxima para colunas */
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Fundo branco para as cartas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #34495e; /* Cor escura para o título do cartão */
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 25px; /* Botão mais arredondado */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.ratio {
+    position: relative;
+    padding-top: 56.25%; /* Proporção 16:9 para o iframe */
+    background-color: #f9f9f9; /* Fundo ligeiramente cinza para contraste */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%; /* Largura padrão para preencher o contêiner pai */
+    max-width: 100%; /* Garante que não exceda a largura do contêiner pai */
+}
+
+
+.ratio iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Reduzir o tamanho do título em telas menores */
+    }
+
+    .card-title {
+        font-size: 1.25rem; /* Ajustar o tamanho do título do cartão */
+    }
+
+    .ratio {
+        max-width: 800px; /* Largura máxima desejada */
+        margin: 0 auto; /* Centraliza a div no contêiner pai */
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-primary {
+        padding: 0.5rem 1rem; /* Botão menor em telas muito pequenas */
+        font-size: 0.875rem;
+    }
+}

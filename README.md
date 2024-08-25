@@ -1,4 +1,5 @@
-# Meu Portfólio de Projetos
+# iz-brum.github.io
+Atividade da disciplina de Programação Web I.
 
 Bem-vindo ao meu portfólio de projetos! Este repositório serve como a página principal do meu portfólio, onde você pode visualizar uma coleção dos meus projetos hospedados no GitHub Pages.
 
